@@ -109,10 +109,7 @@ body{
     text-align: center;
   }
   
-  .card_pricing_number {
-    font-family: var(--pricing-font);
-  }
-  
+ 
   .card_pricing_symbol,  
   .card_pricing_number {
     font-size: 18px;
