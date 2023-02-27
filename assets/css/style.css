@@ -1,0 +1,153 @@
+body{
+    background-color: #98a2ad;
+}
+
+.container{
+    width: 100%;
+   max-width: 1400px;
+   margin: 200px auto;
+   background-color: #98a2ad;
+   display: flex;
+     
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+
+    
+   
+}
+.card_content{
+    flex-basis:25%;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    position: relative;
+
+   
+
+}
+.card_header_img{
+    width: 30px;
+    height: 30px;
+}
+
+.card_header_subtitle {
+    display: block;
+    font-size: 18px;
+    color:#98a2ad;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  
+  .card_header_title {
+    font-size: 32px;
+    color:  black;
+    margin-bottom: 25px;
+  }
+  
+
+  .card_header_circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(219, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+
+}
+
+  .card_list_item{
+    list-style: none;
+    align-items: center;
+  }
+  
+  .flex{
+    display: flex;
+  }
+
+
+  .card_list_icon{
+    color: rgb(116, 116, 248);
+    margin-right: 10px;
+  }
+
+
+  
+.card_button {
+    padding: 1.25rem;
+    border: none;
+    font-size: 18px;
+    border-radius: .5rem;
+    background: hsl(210deg 96% 54%);
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+    width: 100%;
+  }
+
+
+
+
+  .card_pricing {
+    position: absolute;
+    background: red;
+    width: 60px;
+    height: 88px;
+    right: 1.5rem;
+    top: -1rem;
+    padding-top: 1.25rem;
+    text-align: center;
+  }
+  
+  .card_pricing_number {
+    font-family: var(--pricing-font);
+  }
+  
+  .card_pricing_symbol,  
+  .card_pricing_number {
+    font-size: 18px;
+  }
+ 
+  .card_pricing_month {
+   display: block;
+  }
+  
+  .card_pricing_number, 
+  .card_pricing_month {
+    color: #fff;
+  }
+  
+  .card_pricing::after, 
+  .card_pricing::before {
+    content: '';
+    position: absolute;
+  }
+  
+  .card_pricing::after {
+    width: 100%;
+    height: 14px;
+    background-color:#fff;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  }
+  
+  .card_pricing::before {
+    width: 14px;
+    height: 16px;
+    background-color: red;
+    top: 0;
+    left: -14px;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  }
+  
